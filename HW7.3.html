@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {margin: 0;padding: 0;font-family: Arial, sans-serif;}
+        .content {padding: 20px;}
+        footer {align-items: center; background-color: #FDCB4D; color: white;display: flex;justify-content: space-between;padding: 20px;}
+        .footer-column {flex: 1;}
+        .menu {list-style-type: none;padding: 0;display: flex; flex-direction: column;}
+        .menu-column {margin-right: 20px;}
+        .menu li {margin-bottom: 10px;}
+        .menu li a {color: white;text-decoration: none;transition: color 0.3s;}
+        .menu li a:hover {text-decoration: underline;}
+        .social-icons {list-style-type: none;padding: 0;display: flex;justify-content: flex-end;}
+        .social-icons li {margin-left: 10px;}
+        .social-icons a {width: 50px; height: 50px; display: block; background-size: cover;}
+        .facebook:hover { background-image: url('icons8-facebook-48.png'); }
+        .facebook { background-image: url('icons8-facebook-48b.png'); }
+        .youtube:hover {background-image: url('icons8-youtube-48.png');}
+        .youtube {background-image: url('icons8-youtube-48b.png');}
+        .instagram:hover {background-image: url('icons8-instagram-48.png'); }
+        .instagram {background-image: url('icons8-instagram-48b.png'); }
+        .social-icons a:hover {filter: brightness(1.5); }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footer-column">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <ul class="menu menu-column">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <ul class="social-icons">
+                <li><a href="#" class="facebook"></a></li>
+                <li><a href="#" class="youtube"></a></li>
+                <li><a href="#" class="instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
